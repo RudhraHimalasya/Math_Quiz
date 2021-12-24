@@ -1,0 +1,58 @@
+#lo {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+}
+body {
+    background: linear-gradient(to right,#ff0f7b,#1dbde6 );
+}
+#b {
+    align-items: center;
+    width: 100px;
+}
+.dd {
+    padding: 20px;
+    width:50rem;
+    height:60rem;
+    flex-direction: column;
+    background: rgba(255,255,255,0,0.06);
+    box-shadow: 0 8px 32px;
+    border-radius: 20px;
+}
+
+#input1 {
+        border-radius: 10px;
+        background: linear-gradient(to right , #c5f9d7,#f8acff);
+}
+#input2 {
+    border-radius: 10px;
+    background: linear-gradient(to right , #c5f9d7,#f8acff);
+}
+.hh {
+    font-family: 'Amatic SC', cursive;
+}
+
+
+input
+{
+    background: grey;
+}
+
+
+.my_nav_bar{
+    
+    position: sticky;
+    
+    top: 0px;
+    
+    z-index: 9999;
+}
+
+
+#ddiv {
+    background: white;
+border-radius: 10px;
+border-top: 10px solid #e44676;
+padding: 10px;
+float: none;
+text-align: left;
+}

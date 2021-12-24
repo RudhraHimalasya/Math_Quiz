@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(to right,#ff0f7b,#1dbde6 );
+}
+
+#number1 {
+    border-radius: 10px;
+    background: linear-gradient(to right , #c5f9d7,#f7d486 , #f27a7d);
+    width:700px;
+}
+#number2 {
+    border-radius: 10px;
+    background: linear-gradient(to right , #c5f9d7,#f7d486 , #f27a7d);
+    width:700px;
+}
+
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #f68080;
+padding: 10px;
+float: none;
+text-align: left;
+width:800px;
+}

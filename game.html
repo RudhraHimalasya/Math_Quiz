@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Math Quiz</title>
+        <link rel="stylesheet" href="style1.css">
+
+        <script src="main.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="icon" href="ico.png" size="15X15">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar-inverse my_nav_bar">
+            <div class="navbar-header">
+                
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                <span class="icon-bar"></span>
+                    
+                    <span class="icon-bar"></span>
+                    
+                    <span class="icon-bar"></span>
+                    
+                </button>
+                
+                    <a class="navbar-brand" href="#">Math Quiz</a>
+                
+                </div>
+                    
+                    <div class="collapse navbar-collapse" id="mynavbar"></div>
+                        
+                    </div>
+                    
+                   
+                
+        </nav>
+        <h3 id="p1name" class="badge badge-info"> 1) <span id="p1score"> </span></h3>
+        <h3 id="p2name" class="badge badge-info"> 2) <span id="p2score">  </span></h3>
+        <center>
+         <h1>MATH QUIZ</h1>
+         <br>
+         <div  id="output">
+
+         </div>
+
+          <div class="shadow-lg p-3 mb-5 bg-white rounded" id="ddiv">
+            <br>
+            <h2><abbr title="HyperText Markup Language" class="initialism">Type the Question</abbr></h2><br>
+            <h3>First number</h3>
+            <input class="form-control" placeholder="TYPE HERE" type="number" id="number1">
+            <br><br>
+            <h3>Second Number</h3>
+            <input class="form-control" placeholder="TYPE HERE" type="number" id="number2">
+            <br><br>
+      
+          </div>
+      
+          
+<br><br>
+          <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary" onclick="send1()">Add</button>
+            <button type="button" class="btn btn-secondary" onclick="send2()">Subtract</button>
+            <button type="button" class="btn btn-secondary" onclick="send3()">Multiply</button>
+            <button type="button" class="btn btn-secondary" onclick="send4()">Divide</button>
+          </div>
+          <br><br>
+        </center>
+    </body>
+</html>
